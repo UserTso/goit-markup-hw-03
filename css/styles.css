@@ -1,0 +1,225 @@
+/* primary-text-color  #212121
+secondary-text-color #757575
+background-color #2196F3 #000000*/
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --bg-hover-logo: #2196F3
+}
+
+/* BODY */
+.body {
+    --primary-text-color: #212121;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em
+}
+
+a {text-decoration: none;}
+
+ul {
+    list-style: none;
+}
+
+/* HEDER */
+.site-heder {
+    background-color: #FFFFFF;
+}
+/* logo */
+.logo-web {
+    color: var(--bg-hover-logo);
+}
+.logo-studio {
+    color: #000000;
+}
+.logo {
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+
+        text-decoration: none;
+}
+
+/* link-nav */
+.link-nav {
+    color: var(--primary-text-color);
+  
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        }
+.link-nav.current {
+    color: var(--bg-hover-logo);
+}
+
+.link-nav:hover,
+.link-nav:focus {
+    color: var(--bg-hover-logo);
+}
+/* link-auth */
+.link-auth {
+    color: var(--secondary-text-color);
+
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
+.link-auth:hover,
+.link-auth:focus {
+    color: var(--bg-hover-logo);
+}
+
+/* HYRO */
+.hyro {
+    background-color: #2F303A;
+}
+.hyro-text {
+    color: #FFFFFF;
+
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+}
+.hyro-button {
+    background-color: var(--bg-hover-logo);
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        font-family: inherit;
+  
+}
+/* about company */
+
+.title-section {
+    color: var(--primary-text-color);
+
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+}
+.text-section {
+    color: var(--secondary-text-color);
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+}
+/* work */
+.work {
+    color: var(--primary-text-color);
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+/* Team */
+.team {
+    background-color: #F5F4FA;
+
+}
+.title-team {
+    color: var(--primary-text-color);
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+
+.title-name {
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+}
+.text-team {
+    color: var(--secondary-text-color);
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.19;
+            text-align: center;
+}
+/* footer */
+.site-footer {
+    background-color: #2F303A;
+}
+.footer-studio {
+    color: #FFFFFF;
+}
+.footer-address {
+    color: #FFFFFF;
+
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        font-style: normal;
+}
+.footer-data {
+    color: rgba(255, 255, 255, 0.6);
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+}
+.footer-data:hover,
+.footer-data:focus {
+    color: var(--bg-hover-logo);
+}
+
+/* second page */
+/* section button */
+.btn {background-color: rgba(245, 244, 250, 1);
+color: var(--primary-text-color);
+border: none;
+cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    font-family: inherit;
+
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--bg-hover-logo);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+/* section portfolio */
+.title-portfolio {
+    color: var(--primary-text-color);
+
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.page-portfolio {
+    color: var(--secondary-text-color);
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+
+}
