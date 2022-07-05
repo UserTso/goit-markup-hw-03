@@ -165,15 +165,10 @@ h1,h2,h3,p,ul {
         font-family: inherit;
 
     min-width: 200px;
-    max-height: 50px;
+    height: 50px;
     border-radius: 4px;
     padding: 0px;
   
-}
-
-.hyro-element { 
-    padding: 10px 32px;
-    width: 136px;
 }
 
 /* about company */
