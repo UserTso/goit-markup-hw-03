@@ -42,7 +42,7 @@ h1,h2,h3,p,ul {
 
 
 /* Main-heder */
-.container.main-heder {
+.site-heder {
     border-bottom: 1px solid #ECECEC;
 }
 .main-heder,
@@ -131,6 +131,8 @@ h1,h2,h3,p,ul {
 .hyro {
     background-color: #2F303A;
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hyro-text {
@@ -147,6 +149,7 @@ h1,h2,h3,p,ul {
         height: 120px;
         margin-right: auto;
         margin-left: auto;
+        margin-bottom: 30px;
 
 }
 .hyro-button {
@@ -161,12 +164,18 @@ h1,h2,h3,p,ul {
         letter-spacing: 0.06em;
         font-family: inherit;
 
-    width: 200px;
-    height: 50px;
+    min-width: 200px;
+    max-height: 50px;
     border-radius: 4px;
-
+    padding: 0px;
   
 }
+
+.hyro-element { 
+    padding: 10px 32px;
+    width: 136px;
+}
+
 /* about company */
 
 .section {
@@ -221,10 +230,12 @@ h1,h2,h3,p,ul {
         line-height: 1.71;
 }
 /* work */
-
+.work-section { 
+    padding-bottom: 94px;
+}
 .work-item {
     display: flex;
-    padding-bottom: 94px;
+    
     
 }
 .work-image {
@@ -278,13 +289,17 @@ h1,h2,h3,p,ul {
     margin-right: 0;
 }
 
+.inform-team {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .title-name {
 
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
         text-align: center;
-        margin-top: 30px;
         margin-bottom: 10px;
 }
 .text-team {
@@ -295,27 +310,21 @@ h1,h2,h3,p,ul {
             line-height: 1.19;
             text-align: center;
 
-            margin-bottom: 30px;
 }
 /* --FOOTER-- */
 
 .site-footer {
     background-color: #2F303A;
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 .footer-studio {
     color: #FFFFFF;
 }
 
-.footer-flex {
 
-display: flex;
-padding-top: 60px;
-      margin-right: auto;
-      flex-direction: column;
-}
 .link-block {
     display: block;
-    padding-top: 50px;
     margin-right: auto;
     margin-bottom: 20px;
 }
@@ -323,7 +332,7 @@ padding-top: 60px;
 
 .address {
     font-family: Roboto, sans-serif;
-    padding-bottom: 60px;
+    
 }
 
 .footer-address {
@@ -367,12 +376,13 @@ padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .btn-flex-element {
 
     margin-right: 8px;
-    margin-bottom: 50px;
+    
 }
 
 .btn-flex-element:last-child {
@@ -393,6 +403,11 @@ cursor: pointer;
     border-radius: 4px;
 
     padding: 0px;
+}
+
+.btn-element {
+    display: block;
+    padding: 6px 22px;
 }
 
 .btn:hover,
@@ -428,13 +443,11 @@ cursor: pointer;
     display: block;
 }
 .imeges {
-
+    padding: 20px;
     border: 1px solid #EEEEEE;
 }
 
 .title-portfolio {
-        
-        margin-top: 20px;
 
     color: var(--primary-text-color);
 
